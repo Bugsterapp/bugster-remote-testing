@@ -1,0 +1,13 @@
+name: flight_search_invalid_route
+page: /
+page_path: app/page.tsx
+task: Validate error handling when entering invalid route
+steps:
+  - Open homepage
+  - Navigate to flight search
+  - Enter origin "XXX"
+  - Enter destination "YYY"
+  - Select departure date 2025-09-10
+  - Click "Search"
+  - Verify error message appears
+expected_result: Error state shown with "No flights available" message

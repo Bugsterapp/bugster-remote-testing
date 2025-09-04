@@ -1,0 +1,12 @@
+name: online_checkin_flow
+page: /
+page_path: app/page.tsx
+task: Validate online check-in with valid booking code
+steps:
+  - Open homepage
+  - Navigate to check-in section
+  - Enter booking code "ABC123"
+  - Enter last name "Perez"
+  - Click "Check-in"
+  - Verify boarding pass generated
+expected_result: Boarding pass available for download/print

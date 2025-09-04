@@ -1,0 +1,13 @@
+name: flight_search_basic
+page: /
+page_path: app/page.tsx
+task: Validate flight search with valid origin, destination, and date
+steps:
+  - Open homepage
+  - Navigate to flight search
+  - Enter origin "SCL"
+  - Enter destination "EZE"
+  - Select departure date 2025-09-10
+  - Click "Search"
+  - Verify results list appears
+expected_result: Search results display available flights matching input criteria

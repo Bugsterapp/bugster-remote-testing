@@ -1,0 +1,14 @@
+name: booking_flow_one_way
+page: /
+page_path: app/page.tsx
+task: Validate one-way booking selection and price summary
+steps:
+  - Open homepage
+  - Navigate to flight search
+  - Perform flight search
+  - From search results, select one flight
+  - Continue to booking page
+  - Fill passenger details (dummy data)
+  - Proceed to price summary
+  - Verify total fare displayed
+expected_result: Booking flow progresses with accurate fare summary

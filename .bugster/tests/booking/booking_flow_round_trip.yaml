@@ -1,0 +1,14 @@
+name: booking_flow_round_trip
+page: /
+page_path: app/page.tsx
+task: Validate round-trip booking with multiple passengers
+steps:
+  - Open homepage
+  - Navigate to flight search
+  - Perform flight search
+  - From search results, select outbound and return flights
+  - Continue to booking page
+  - Add 2 adult passengers
+  - Proceed to price summary
+  - Verify round-trip total displayed correctly
+expected_result: Correct total fare for both legs and passengers
