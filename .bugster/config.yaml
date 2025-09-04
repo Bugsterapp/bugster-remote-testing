@@ -3,8 +3,8 @@
 # Important: Commit this file to your repository for CI/CD integration to work properly.
 
 # Project Information
-project_name: bugster-remote-testing
-project_id: bugster-remote-testing-1757009670
+project_name: #{Place your project name here}
+project_id: #{Place your project id here}
 base_url: "https://jetsmart.com"
 
 # Project Authentication
